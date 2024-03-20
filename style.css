@@ -1,0 +1,607 @@
+@font-face {
+    font-family: MangoSansRegular;
+    src: url(./images/MangoSansRegular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: MangoSansRegular;
+}
+
+.top-header{
+    
+    font-family: MangoSansRegular;
+    font-size: 12px;
+    border-bottom: 1px solid #e0d1d1d4;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.gender-categories ul{
+    display: flex;
+    list-style: none;
+    margin-right: 10px;
+}
+
+.gender-categories ul a{
+    text-decoration: none;
+    font-family: MangoSansRegular;
+    color: #000;
+    font-size: 13px;
+    padding-bottom: 5px;
+    letter-spacing: .01875rem;
+}
+
+header{
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 9;
+    background-color: #fff;
+    top: 29px;
+}
+
+.gender-categories{
+    width: 274px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.gender-categories li{
+  padding-left: 34px;
+}
+
+.active{
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.logo img{
+    width: 144px;
+    height: 26px;
+}
+
+.logo{
+    width: 144px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    margin-left: 135px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    height: 64px;
+    margin-right: 37px;
+    padding-left: 44px;
+    letter-spacing: 0.3px;
+
+}
+
+nav img{
+    width: 78px;
+}
+
+nav ul{
+    list-style: none;
+
+}
+
+nav a{
+    text-decoration: none;
+    font-family: MangoSansRegular;
+    font-size: 11px;
+    color: #000;
+}
+
+.image{
+    margin-top: 15px;
+}
+
+.images{
+    margin-top: 10px;
+}
+
+.content{
+    margin-left: 17px;
+}
+
+.contents{
+    
+    margin-top: -3px;
+}
+
+#wish{
+    margin-left: 17px;
+}
+
+
+
+.front-product img{
+    width: 100%;
+    margin-top: 76px;
+}
+
+.front-product{
+    position: relative;
+}
+
+.front-product .image-info {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.front-product a{
+    text-decoration: none;
+}
+
+.front-product h1{
+    color: #fff;
+
+    font-size: 80px;
+    font-family: MangoSansRegular;
+    font-weight: normal;
+}
+
+.cta-btn{
+    position: absolute;
+    top: 620px;
+    left: 50%;
+    transform: translatex(-50%);
+    padding: 10px 24px;
+    background-color: #fff;
+    cursor: pointer;
+
+}
+
+.cta-btn a{
+    font-size: 13px;
+    font-family: MangoSansRegular;
+        color: #000;
+
+}
+
+.cta-btn:hover.cta-btn{
+   background-color: #b8b8b8;
+   transition: ease 0.5s;
+}
+
+.product-list{
+    width: 100%
+
+}
+
+.row-1{
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    margin-top: -2px;
+}
+
+.product-list img{
+    width: 633px;
+    margin-left: 1px;
+    height: 817px;
+    
+}
+
+.col-1{
+    position: relative;
+}
+
+.col-1-info{
+
+    position: absolute;
+    top: 80%;
+    left: 58px;
+}
+.product-list a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.product-list h2{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: MangoSansRegular;
+}
+
+.discover-more{
+    position: absolute;
+    top: 88%;
+    left: 58px;
+    font-family: MangoSansRegular;
+    font-size: 13px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.col-2{
+    position: relative;
+}
+
+.col-2-info{
+    position: absolute;
+    top: 80%;
+    left: 58px;
+
+}
+.col-3{
+    position: relative;
+}
+
+.col-3-info{
+    position: absolute;
+    top: 80%;
+    left: 58px;
+}
+
+.product-list img{
+    opacity:1;
+    transition: 0.3s ease;
+}
+    
+.product-list img:hover{
+    opacity:0.8;
+    transition: 0.3s ease;
+}
+
+
+
+.row-2{
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    margin-top: -2px;
+}
+
+
+.row-3{
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+    margin-top: -2px;
+}
+
+
+.section-2 h2{
+    font-family: MangoSansRegular;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: .3px;
+    color: #121314;
+}
+
+.other-line{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+     width: 100%; 
+    height: 150px;
+    padding-top: 50px;
+}
+
+.section-2{
+    width: 100%;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.row img{
+    width: 99.8%;
+    height: 100%;
+}
+
+.women{
+    position: relative;
+}
+
+.kids{
+    position: relative;
+}
+
+.teen{
+    position: relative;
+}
+
+.cta-gender-button{
+     position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.cta-gender-button a{
+    font-size: 13px;
+    font-family: MangoSansRegular;
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: .3px;
+}
+
+.cta-gender-button:hover{
+    background-color: #b8b8b8;
+    transition: ease 0.5s;
+}
+
+.women .cta-gender-button{
+    padding: 10px 27px;
+}
+
+.kids .cta-gender-button{
+    padding: 10px 38px;
+}
+
+.teen .cta-gender-button{
+    padding: 10px 38px;
+}
+
+.section-2 img{
+    opacity:1;
+    transition: 0.3s ease;
+}
+    
+.section-2 img:hover{
+    opacity:0.8;
+    transition: 0.3s ease;
+}
+
+.men{
+    width: 100%;
+    height: 194px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.men h1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: .3px;
+    color: #121314;
+    font-family: MangoSansRegular;
+}
+
+.men a{
+    text-decoration: none;
+}
+
+.list-items{
+    width: 100%;
+    display: flex;
+    
+}
+
+.list-items ul{
+    list-style: none;
+}
+
+.list-items h2{
+    font-size: 12px;
+    font-family: MangoSansRegular;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: .3px;
+    padding-bottom: 30px;
+}
+
+.list-items a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #000;    
+    font-family: MangoSansRegular;
+    letter-spacing: .3px;
+    line-height: 22px;
+    
+}
+
+.clothing{
+    margin-left: 85px;
+}
+
+.shoes-accessories{
+    margin-left: 16%;
+}
+
+.list-items li a:hover{
+    border-bottom: 1px solid #000;
+    
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+}
+
+footer .subscribing-offer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 77px;
+    border-top: 1px solid #f0e1e1;
+}
+
+footer .subscribing-offer p{
+    margin-top: 50px;
+    font-size: 13px;
+    font-family: MangoSansRegular;
+    letter-spacing: 0.4px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 300px;
+    height: 62px;
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: #000;
+    padding-top: 20px;
+}
+
+.subscribe-btn{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 300px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.world-wide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    
+}
+
+.world-wide p {
+    font-family: MangoSansRegular;
+        letter-spacing: 0.3px;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 3px 7px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.world-wide img{
+    cursor: pointer;
+}
+
+.footer-nav{
+    width: 100%;
+   
+}
+.footer-nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.footer-nav ul a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-family: MangoSansRegular;    
+}
+
+
+.first-list ul{
+    display: flex;
+    justify-content: center;
+}
+
+.second-list ul{
+    display: flex;
+    justify-content: center;
+}
+
+.first-list ul li{
+   padding: 0px 12px;
+}
+
+.second-list ul li{
+    margin-top: 9px;
+    padding: 0px 15px;
+}
+
+.footer-nav li a:hover{
+    border-bottom: 1px solid #000;
+    
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.social img{
+    width: 18px;
+    margin: 0px 13px;
+}
+
+.subscribe-btn{
+    opacity: 1;
+    transition: 0.3s ease;
+}
+
+.subscribe-btn button:hover{
+    opacity: 0.5;
+    transition: ease 0.3s;
+}
+
+
+.terms-condition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 75px;
+    padding-bottom: 15px;
+}
+
+.privacy-policy{
+    font-size: 10px;
+    font-family: MangoSansRegular;
+        font-weight: lighter;
+    padding: 0px 10px;
+    color: #b8b8b8;
+}
+
+.privacy-policy a{
+    color: #7f7272;
+}
+
+.rights-reserved{
+    font-size: 10px;
+    font-family: MangoSansRegular;
+        font-weight: lighter;
+    padding: 0px 10px;
+    color: #0c0a0a6e;
+}
+
+.list-items a:hover{
+    transition: ease 20s;
+}
